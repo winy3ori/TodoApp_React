@@ -1,0 +1,115 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4; /* 배경색을 연한 색으로 설정 */
+}
+
+/* 로그인 컨테이너 */
+.login-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* 그림자 효과 */
+  background-color: #fff; /* 배경색 */
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333; /* 글자색 */
+}
+
+input {
+  width: 92.5%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-bottom: 10px; /* 입력칸 간격 */
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px; /* 버튼 글자 크기 */
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #333; /* 버튼 호버 시 색상 변경 */
+}
+
+.link {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px; /* 글자 크기 */
+}
+
+h2 {
+  margin-bottom: 5px; /* h2와 그 아래 요소 간격 조정 */
+}
+
+.sub {
+  color: gray;
+  margin-top: 0; /* p 태그의 기본 마진 제거 */
+  margin-bottom: 20px; /* p 태그 아래 간격 추가 */
+}
+
+.link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.link a:hover {
+  text-decoration: underline; /* 링크 호버 시 밑줄 */
+}
+
+.email-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.verification-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* 인증 버튼 스타일 */
+.verify-btn {
+  width: 15%; /* 버튼 크기 조정 */
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 13px;
+  margin-left: 10px; /* 입력창과 버튼 간 간격 */
+}
+
+.verify-btn:hover {
+  background-color: #333; /* 버튼 호버 시 색상 변경 */
+}
+
+/* 확인 버튼의 스타일은 인증 버튼과 동일하게 유지 */
+.verify-btn:active {
+  background-color: #555; /* 버튼 클릭 시 색상 */
+}
