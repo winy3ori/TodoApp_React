@@ -17,3 +17,5 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+<script src="https://accounts.google.com/gsi/client" async defer />;

@@ -100,14 +100,13 @@ function AppContent() {
           </motion.p>
         )}
       </AnimatePresence>
-
       {/* 로그아웃 버튼 */}
       <motion.button
-        className={styles.logoutButton}
+        className="logoutBtn"
         onClick={handleLogout}
         variants={child}
       >
-        Logout
+        Save & Logout
       </motion.button>
     </motion.div>
   );

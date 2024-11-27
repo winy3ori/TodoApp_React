@@ -209,7 +209,7 @@ function SignUpPage() {
           onChange={handleUsernameChange}
         />
       </div>
-      <button type="submit" onClick={handleSignUp}>
+      <button type="submit" className="signupButton" onClick={handleSignUp}>
         회원가입
       </button>
       {message && <p>{message}</p>} {/* 회원가입 메시지 */}

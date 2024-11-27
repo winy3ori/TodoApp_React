@@ -46,54 +46,48 @@ function LoginPage() {
 
   return (
     <div className="login-container">
-      <h2>로그인</h2>
-      <p className="sub">계정에 로그인하세요.</p>
+      <h2 className="title">Log In</h2>
+      <p className="sub">Login to your account</p>
 
       {error && <p className="error">{error}</p>}
 
       <form onSubmit={handleLogin}>
         <div className="form-group">
-          <label htmlFor="email">아이디</label>
+          <label htmlFor="email">Email</label>
           <input
             type="text"
             id="email"
-            placeholder="아이디를 입력하세요"
+            placeholder="Enter your Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
 
         <div className="form-group">
-          <label htmlFor="password">비밀번호</label>
+          <label htmlFor="password">Password</label>
           <input
             type="password"
             id="password"
-            placeholder="비밀번호를 입력하세요"
+            placeholder="Enter your Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
         </div>
 
-        <button type="submit">로그인</button>
+        <button type="submit" className="signupButton">
+          Log In
+        </button>
       </form>
 
       <p className="link">
-        계정이 없으신가요? <Link to="/signUpPage">회원가입</Link>
+        New to Todo? <Link to="/signUpPage">Sign Up</Link>
       </p>
 
       <div className="social-login-buttons">
-        <button
-          type="button"
-          onClick={onGoogleLogin}
-          className="google-login-btn"
-        >
+        <button type="button" onClick={onGoogleLogin} className="oauth2btn">
           Continue with Google
         </button>
-        <button
-          type="button"
-          onClick={onNaverLogin}
-          className="naver-login-btn"
-        >
+        <button type="button" onClick={onNaverLogin} className="oauth2btn">
           Continue with Naver
         </button>
       </div>

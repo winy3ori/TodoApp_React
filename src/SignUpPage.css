@@ -1,22 +1,32 @@
-body,
 html {
-  height: 100%;
   margin: 0;
-  display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f4f4f4; /* 배경색을 연한 색으로 설정 */
+  background-color: #f8f8ff; /* 배경색을 연한 색으로 설정 */
+}
+
+.title {
+  display: inline-block;
+  width: 100%;
+  font-family: "Poppins";
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 1rem;
+
+  color: var(--black-1);
 }
 
 /* 로그인 컨테이너 */
 .login-container {
   width: 400px;
   margin: 0 auto;
+  margin-top: 70px;
   padding: 20px;
   border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* 그림자 효과 */
-  background-color: #fff; /* 배경색 */
+  border-radius: 12px;
+  background-color: var(--bg-2);
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 그림자 효과 */
 }
 
 .form-group {
@@ -31,27 +41,49 @@ label {
 }
 
 input {
-  width: 92.5%;
+  width: 100%;
   padding: 10px;
   border: 1px solid #ddd;
-  border-radius: 3px;
+  border-radius: 12px;
   font-size: 14px;
   margin-bottom: 10px; /* 입력칸 간격 */
 }
 
-button {
+.signupButton,
+.oauth2btn {
   width: 100%;
+  font-size: 1.5rem;
+  font-weight: 30;
+
   padding: 12px;
-  background-color: black;
+  border-radius: 12px;
+  margin-top: 10px;
+  background-color: rgb(45, 45, 45);
   color: white;
   border: none;
-  border-radius: 3px;
+
   cursor: pointer;
   font-size: 16px; /* 버튼 글자 크기 */
   transition: background-color 0.3s ease;
 }
 
-button:hover {
+.logoutBtn {
+  width: 150px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: #dedfe1;
+  color: #585858;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16x; /* 버튼 글자 크기 */
+  transition: background-color 0.3s ease;
+}
+
+.signupButton:hover {
   background-color: #333; /* 버튼 호버 시 색상 변경 */
 }
 
@@ -95,11 +127,12 @@ h2 {
 /* 인증 버튼 스타일 */
 .verify-btn {
   width: 15%; /* 버튼 크기 조정 */
-  padding: 10px;
+  border-radius: 12px;
+  padding: 7px;
   background-color: black;
   color: white;
   border: none;
-  border-radius: 3px;
+
   cursor: pointer;
   font-size: 13px;
   margin-left: 10px; /* 입력창과 버튼 간 간격 */
