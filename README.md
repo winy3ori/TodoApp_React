@@ -4,13 +4,11 @@
 ## Overview
 소셜 로그인으로 언제 어디서든지 접속 가능한 Todo List 웹 애플리케이션
 
-<br>
 
 ## Skills & Version
 - OAuth 2.0 
 - Sprig Security 6.3.4
 - JWT 0.12.3
-<br>
 
 ## Stack
 
@@ -23,12 +21,10 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-<br>
 
 ## Getting Started
     npm install    
     npm start    
-<br>
 
 ## Image
 <img width="1037" alt="스크린샷 2024-11-28 오후 4 14 22" src="https://github.com/user-attachments/assets/b32f2230-46b0-40c5-a2c2-74c8ebb7339d">
