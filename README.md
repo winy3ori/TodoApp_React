@@ -30,4 +30,7 @@
     npm start    
 
 ## IMAGE
-![image](https://github.com/user-attachments/assets/99011d30-f041-4df6-ab68-6c575d2dcde3)
+<img width="1037" alt="스크린샷 2024-11-28 오후 4 14 22" src="https://github.com/user-attachments/assets/b32f2230-46b0-40c5-a2c2-74c8ebb7339d">
+<img width="1037" alt="스크린샷 2024-11-28 오후 4 14 26" src="https://github.com/user-attachments/assets/e450769d-ead1-4f95-8e9b-08c4839061c2">
+<img width="1037" alt="스크린샷 2024-11-28 오후 4 15 00" src="https://github.com/user-attachments/assets/92724630-143d-4033-8c86-70141bbe2f07">
+<img width="1037" alt="스크린샷 2024-11-28 오후 4 15 15" src="https://github.com/user-attachments/assets/44858707-6bfb-4303-a225-66f421be619e">
